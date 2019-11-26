@@ -1,0 +1,29 @@
+{
+  "name": "graphics-project",
+  "version": "1.0.0",
+  "description": "A random graphics project, basis for exploration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emnh/graphics-project.git"
+  },
+  "author": "Eivind Magnus Hvidevold <hvidevold@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emnh/graphics-project/issues"
+  },
+  "homepage": "https://github.com/emnh/graphics-project#readme",
+  "dependencies": {
+    "astring": "^1.4.3",
+    "cherow": "^1.6.9",
+    "immer": "^5.0.0",
+    "rxjs": "^6.5.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
